@@ -7,7 +7,7 @@
 [compare.c](compare.c)    
 [length.c](length.c)     
 [linear.c](linear.c)      
-[multipilcation.c](multipilcation.c)         
+[multiplication.c](multiplication.c)         
 [palindrome.c](palindrome.c)      
 [program-1.c](program-1)     
 [program-2.c](program-2.c)     
