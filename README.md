@@ -9,7 +9,7 @@
 [linear.c](linear.c)      
 [multiplication.c](multiplication.c)         
 [palindrome.c](palindrome.c)      
-[program-1.c](program-1)     
+[program-1.c](program-1.c)     
 [program-2.c](program-2.c)     
 [program-3.c](program-3.c)      
 [reverse.c](reverse.c)       
