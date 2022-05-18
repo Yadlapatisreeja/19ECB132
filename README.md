@@ -2,7 +2,7 @@
 
 ## INDEX
 [Binarytree.c](Binarytree.c)   
-[STRING.c](STRING.C)    
+[string.c](string.C)    
 [add.c](add.c)     
 [compare.c](compare.c)    
 [length.c](length.c)     
