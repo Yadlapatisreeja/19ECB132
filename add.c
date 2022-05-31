@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int first, second, *p, *q, sum;
@@ -16,4 +15,9 @@ int main()
     
     return 0;
 }
+
+Enter two integers to add
+12
+12
+Sum of entered numbers = 24
 
