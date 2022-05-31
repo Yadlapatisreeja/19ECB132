@@ -72,12 +72,9 @@ int main() {
   postorderTraversal(root);
 }
 
-
-/* Output
 Inorder traversal 
 4 ->2 ->1 ->3 ->
 Preorder traversal 
 1 ->2 ->4 ->3 ->
 Postorder traversal 
 4 ->2 ->3 ->1 ->
-*/  
