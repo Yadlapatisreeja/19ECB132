@@ -32,7 +32,14 @@ int checkPrime(int n) {
       if(n % i == 0) {
         isPrime = 0;
         break;
-      }
+     
+Enter a positive integer: 100
+100 = 3 + 97
+100 = 11 + 89
+100 = 17 + 83
+100 = 29 + 71
+100 = 41 + 59
+100 = 47 + 53 }
     }
   }
 
