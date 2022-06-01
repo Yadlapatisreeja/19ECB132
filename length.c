@@ -10,7 +10,6 @@ int main()
     printf("Length of Str is %d", i);
     return 0;
 }
-
 /*output:
 Enter the String: 160
 Length of Str is 3*/
