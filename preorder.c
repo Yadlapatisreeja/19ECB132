@@ -1,48 +1,62 @@
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
 #include <stdlib.h>
-int main ()
 struct node {
-    int data;
-    struct node *L;
-    struct node *R;
+	int data;
+	struct node* left;
+	struct node* right;
 };
-struct node* insert( struct node* root, int data ) {
-    if(root == NULL) {
-        struct node* node = (struct node*)malloc(sizeof(struct node));
-        node->data = data;
-        node->L = NULL;
-        node->R = NULL;
-        return node;
-    } else {
-        struct node* cur;
-        if(data <= root->data) {
-            cur = insert(root->L, data);
-            root->L = cur;
-        } else {
-            cur = insert(root->R, data);
-            root->R= cur;
-        }
-        return root;
-    }
+struct node* newNode(int data)
+{
+	struct node* node
+		= (struct node*)malloc(sizeof(struct node));
+	node->data = data;
+	node->left = NULL;
+	node->right = NULL;
+	return (node);
 }
-void preOrder( struct node *root) {
-if (root != NULL) {
-        printf("%d ", root->data);
-        preOrder(root->L);
-        preOrder(root->R);
-    }
+void printPostorder(struct node* node)
+{
+	if (node == NULL)
+		return;
+	printPostorder(node->left);
+	printPostorder(node->right);
+	printf("%d ", node->data);
 }
-int main() {
-    struct node* root = NULL;
-    int t;
-    int data;
-    scanf("%d", &t);
-    while(t-- > 0) {
-        scanf("%d", &data);
-        root = insert(root, data);
-    }
-    preOrder(root);
-    return 0;
+void printInorder(struct node* node)
+{
+	if (node == NULL)
+		return;
+	printInorder(node->left);
+	printf("%d ", node->data);
+	printInorder(node->right);
 }
+void printPreorder(struct node* node)
+{
+	if (node == NULL)
+		return;
+	printf("%d ", node->data);
+	printPreorder(node->left);
+	printPreorder(node->right);
+}
+int main()
+{
+	struct node* root = newNode(1);
+	root->left = newNode(2);
+	root->right = newNode(3);
+	root->left->left = newNode(4);
+	root->left->right = newNode(5);
+	printf("\nPreorder traversal of binary tree is \n");
+	printPreorder(root);
+	printf("\nInorder traversal of binary tree is \n");
+	printInorder(root);
+	printf("\nPostorder traversal of binary tree is \n");
+	printPostorder(root);
+	getchar();
+	return 0;
+}
+/*OUTPUT:Preorder traversal of binary tree is 
+1 2 4 5 3 
+Inorder traversal of binary tree is 
+4 2 5 1 3 
+Postorder traversal of binary tree is 
+4 5 2 3 1*/
