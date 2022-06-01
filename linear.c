@@ -1,7 +1,5 @@
 # include <stdio.h>
 # define SIZE 5
-
-
 int array_data[SIZE];
 int top_of_stack, front, rear;
 

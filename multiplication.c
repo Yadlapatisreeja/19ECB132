@@ -1,5 +1,4 @@
-include <stdio.h>
-
+#include<stdio.h>
 int main()
 {
     int first, second, *p, *q, multiplication;
@@ -16,3 +15,8 @@ int main()
     
     return 0;
 }
+output:
+Enter two integers to multiplication
+2
+5
+product of entered numbers = 10

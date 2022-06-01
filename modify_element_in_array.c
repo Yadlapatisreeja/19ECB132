@@ -2,6 +2,7 @@ add,delete,modify an element in an array.c
 
 
 #include <stdio.h>
+int main()  
 int search(int *a, int size, int elem)
 {
     int i;
