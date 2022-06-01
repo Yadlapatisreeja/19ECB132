@@ -23,7 +23,6 @@ int main()
     }
     return 0;
 }
-
 /*output:
 Enter a string:313
 313 is a palindrome*/
