@@ -50,7 +50,6 @@ struct node* insertLeft(struct node* root, int value) {
   return root->left;
 }
 
-// Insert on the right of the node
 struct node* insertRight(struct node* root, int value) {
   root->right = createNode(value);
   return root->right;
