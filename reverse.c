@@ -39,6 +39,7 @@ int checkPrime(int n) {
 
   return isPrime;
 }
+
 /*Enter a positive integer: 100
 100 = 3 + 97
 100 = 11 + 89
