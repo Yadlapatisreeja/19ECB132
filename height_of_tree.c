@@ -21,7 +21,6 @@ int maxDepth(struct node* node)
             return (rDepth + 1);
     }
 }
-
 struct node* newNode(int data)
 {
     struct node* node
