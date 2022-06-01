@@ -131,6 +131,7 @@ int main(void) {
   }
 }
 
+
 /*output:
 1. Stack using Array
 2. Queue using Array
