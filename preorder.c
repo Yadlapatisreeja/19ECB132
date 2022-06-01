@@ -54,6 +54,7 @@ int main()
 	getchar();
 	return 0;
 }
+
 /*OUTPUT:Preorder traversal of binary tree is 
 1 2 4 5 3 
 Inorder traversal of binary tree is 
