@@ -19,4 +19,4 @@ output:
 Enter two integers to multiplication
 2
 5
-product of entered numbers = 10
+product of entered numbers = 10modify
