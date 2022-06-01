@@ -17,7 +17,7 @@ int main()
    return 0;  
 }  
 
-output:
+/*output:
 Enter the first string : 10 
 Enter the second string : 10
-strings are same
+strings are same*/
