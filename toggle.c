@@ -20,3 +20,7 @@ int main()
   	printf("\n The Given String after Toggling Case of all Characters = %s", Str1); 	
   	return 0;
 }
+OUTPUT:
+Please Enter any String to Toggle : sreeJA 
+
+ The Given String after Toggling Case of all Characters = SREEja
