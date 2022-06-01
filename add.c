@@ -16,7 +16,7 @@ int main()
     return 0;
 }
 
-/*Enter two integers to add
+/* output: Enter two integers to add
 12
 12
 Sum of entered numbers = 24*/
