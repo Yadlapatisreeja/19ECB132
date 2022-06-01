@@ -14,3 +14,7 @@ int main()
    printf("\nString in Upper Case = %s", s);
    return 0;
 }
+
+output:
+Enter a string:313
+313 is a palindrome
