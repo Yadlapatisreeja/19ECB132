@@ -16,7 +16,6 @@ int main()
    printf("strings are not same");  
    return 0;  
 }  
-
 /*output:
 Enter the first string : 10 
 Enter the second string : 10
