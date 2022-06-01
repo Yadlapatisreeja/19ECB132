@@ -11,6 +11,6 @@ int main()
     return 0;
 }
 
-output:
+/*output:
 Enter the String: 160
-Length of Str is 3
+Length of Str is 3*/
