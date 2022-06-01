@@ -24,6 +24,6 @@ int main()
     return 0;
 }
 
-output:
+/*output:
 Enter a string:313
-313 is a palindrome
+313 is a palindrome*/
