@@ -15,5 +15,5 @@
 [toggle.c](toggle.c)       
 [vowels.c](vowels.c)       
 [preorder.c](preorder.c)     
-[height_of_tree.c](height_of_tree.c)
+[height_of_tree.c](height_of_tree.c)   
 [reverse.c](reverse.c)
