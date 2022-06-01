@@ -21,3 +21,7 @@ int main()
     printf("consonants = %d\n",consonants);
     return 0;
 }
+output:
+Enter  the string : aeikon
+vowels = 4
+consonants = 2
